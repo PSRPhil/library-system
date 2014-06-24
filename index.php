@@ -1,0 +1,10 @@
+<?php require_once('phpinc/initialise.php'); ?>
+<?php require_once('htmlinc/head.php'); ?>
+<?php require_once('htmlinc/navigation.php'); ?>
+<?php if(!isLoggedIn()){ ?>
+<?php require_once('htmlinc/login.php'); ?>
+<?php } ?>
+<?php require_once('htmlinc/book.php'); ?>
+<?php require_once('htmlinc/loaned.php'); ?>
+<?php require_once('htmlinc/waiting.php'); ?>
+<?php require_once('htmlinc/footer.php'); ?>
